@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(start = 16.dp, end = 16.dp, top = 40.dp),
-                        text = "Otp was send",
+                        text = "Verification Code",
                         textAlign = TextAlign.Center,
                         style = MaterialTheme.typography.h5,
                         color = MaterialTheme.colors.primary
@@ -74,18 +74,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    OtpViewTheme {
-        Greeting("Android")
     }
 }
