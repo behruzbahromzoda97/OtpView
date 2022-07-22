@@ -66,7 +66,7 @@ class MainActivity : ComponentActivity() {
                                 .fillMaxSize()
                                 .padding(20.dp)
                         ) {
-                            Button(onClick = { /*TODO*/ }, modifier = Modifier.fillMaxWidth()) {
+                            Button(onClick = { /*TODO*/ }, modifier = Modifier.fillMaxWidth().height(50.dp)) {
                                 Text(text = "Next", style = MaterialTheme.typography.button)
                             }
                         }
